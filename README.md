@@ -1,8 +1,8 @@
 # Check-tomcat
 Check the status of tomcat website
 #!/bin/bash
-Author:Engr Felix
-Company: Etech Consulting llc
+#Author:Engr Felix
+#Company: Etech Consulting llc
 Note: Script will be use to test if tomcat website is up and running and take actions
 if curl -s http://etechdemo.eastus.cloudapp.azure.com:9000/projects; then
 	echo "tomcat is up and running"
